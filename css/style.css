@@ -51,7 +51,7 @@ main {
   font-size: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .title {
     font-size: .7rem;
   }
@@ -89,6 +89,12 @@ main {
 
 #input:focus {
   border: 1pt solid #272829;
+}
+
+@media (max-width: 768px) {
+  #input {
+    font-size: 1rem;
+  }
 }
 
 #btn {
@@ -142,6 +148,6 @@ main {
   text-align:center;
   padding: 15px;
   overflow:hidden;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   transition: display 0.2s ease-in-out;
 }
