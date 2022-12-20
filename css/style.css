@@ -147,7 +147,12 @@ main {
   resize: none;
   text-align:center;
   padding: 15px;
-  overflow:hidden;
+  overflow:auto;
   font-size: 1.2rem;
   transition: display 0.2s ease-in-out;
+  scrollbar-width: none;
+}
+
+#output::-webkit-scrollbar {
+  display: none;
 }

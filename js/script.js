@@ -11,7 +11,7 @@ var cues = [
 function search() {
     var searchNum = document.getElementById("input").value.trim();
     if(searchNum < 1 || searchNum > cues.length) {
-        var cue = "It's too big or too small";
+        var cue = "Invalid input, idiot.";
     } else {
         var cue = cues[searchNum - 1];
     }
